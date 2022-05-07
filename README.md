@@ -16,6 +16,7 @@ Run the following commands to download some of the Replica scenes (~140mb) and (
 ```
 cd habitat-sim
 python src_python/habitat_sim/utils/datasets_download.py --uids replica_cad_dataset
+python src_python/habitat_sim/utils/datasets_download.py --uids replica_cad_baked_lighting
 ```
 Then 
 either load a ReplicaCAD scene in the viewer application with physics enabled
