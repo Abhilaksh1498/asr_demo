@@ -1,4 +1,12 @@
 # asr_demo
+## Clone the above repo and create a virtual env and install habitat-lab
+```
+conda create -n habitat python=3.8 cmake=3.14.0
+conda activate habitat
+cd habitat-lab
+pip install -e .
+cd ..
+```
 ## Installing habitat-sim using conda
 ```
 conda install habitat-sim withbullet -c conda-forge -c aihabitat
